@@ -2,7 +2,7 @@
 
 
 Coding
-A . Give an example of code smell (1) that usually happened in OOP. Explain and give the preventive action Explain briefly about Dependency Injection, and why is it important ?
+A . Give an example of code smell (1) that usually happened in OOP. Explain and give the preventive action
 
 Answer : 
 Too many Parameter
@@ -12,6 +12,11 @@ const describeFruit = (color, name, size, price, numSeeds, type) => {
   return `${fruitName} is ${fruitColor}. It's ${fruitSize}. It costs ${price}. It has ${numSeeds}. The type if ${type}`;
 }
 
+explain briefly about Dependency Injection, and why is it important ?
+Answer : 
+Dependency Injection or what is commonly abbreviated as DI is well-known in the programming world after many frameworks have emerged that implement this concept. One of them and the most famous is Spring.
+DI is intended so that a class is not closely tied to other classes so that the relationship between parts of the code is loosely coupled.
+Interpreted in easy language DI means we give / inject a class to another class which is a dependency (requires it).
 
 
 Rest API
